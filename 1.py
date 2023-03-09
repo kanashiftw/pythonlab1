@@ -1,0 +1,5 @@
+sum = float(input('Введите вещественное число: '))
+if sum < 0: raise Exception('Ошибка! Введенное число отрицательное')
+rub = int(sum)
+kop = int((sum - int(sum)) * 100)
+print(rub, 'руб.', kop, 'коп.')
